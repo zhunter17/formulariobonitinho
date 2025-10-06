@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0%;
+    padding: 0%box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*justify-content:mexe no eixa principal
+align items:mexe no eixo transversal
+*/
+    min-height: 100vh;
+    background-image: url(./imagem/1511117-demon-slayer-tanjiro-kamado-with-sword-with-blue-background-4k-8k-hd-anime-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(30px);
+}
+
+.container h1{ /*este container ta alterando o tamanho do titulo de prrimeiro nivel (h1)*/
+    font-size: 2.3em;
+    text-align: center;
+}
+.caixa-botao{
+    position: relative;/*muda a posição do elemento do adordo com a minha necessidade*/
+    width: 100%;
+    height: 20px;
+    margin: 50px 0;
+}
+
+.caixa-botao input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    outline: none;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+/*alterando o comportamento do input que esta dentro da caixa botao*/
+.caixa-botao input::placeholder{
+    color: cyan;
+}
+
+.caixa-botao i{
+    position: absolute;
+    right: 40px;
+    top: 35%;
+    font-size: 20px;
+}
+
+.botaotwo{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.botaotwo input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    outline: none;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.botaotwo input::placeholder{
+    color: cyan;
+}
+
+.botaotwo i{
+    position: absolute;
+    right: 40px;
+    top: 35%;
+    font-size: 20px;
+}
+
+.pezinho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pezinho label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.pezinho a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pezinho a:hover{
+    text-decoration: underline;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0 ,0 ,.1 );
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: #fff;
+    transition: 0.5s;
+} 
+
+.cadastro{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cadastro a:hover{
+    text-decoration: underline;
+}
